@@ -1,6 +1,6 @@
 import {createStore} from '@stencil/store'
 
-const {state,onChange} = createStore({
+const {state} = createStore({
 		myname:"joni toni",
 		age:12,
 		address:"malaysia"

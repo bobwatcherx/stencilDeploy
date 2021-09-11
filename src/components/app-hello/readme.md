@@ -1,4 +1,4 @@
-# my-component
+# app-hello
 
 
 
@@ -7,17 +7,15 @@
 
 ## Dependencies
 
-### Depends on
+### Used by
 
-- [app-hello](../app-hello)
-- [app-about](../app-about)
+ - [my-component](../my-component)
 
 ### Graph
 ```mermaid
 graph TD;
   my-component --> app-hello
-  my-component --> app-about
-  style my-component fill:#f9f,stroke:#333,stroke-width:4px
+  style app-hello fill:#f9f,stroke:#333,stroke-width:4px
 ```
 
 ----------------------------------------------
